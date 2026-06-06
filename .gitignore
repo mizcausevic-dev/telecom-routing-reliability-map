@@ -1,0 +1,8 @@
+node_modules/
+dist/
+coverage/
+site/
+*.exe
+__pycache__/
+*.pyc
+

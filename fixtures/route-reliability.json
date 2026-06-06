@@ -1,0 +1,39 @@
+{
+  "asOf": "2026-06-06",
+  "network": "carrier interconnect and messaging edge",
+  "routes": [
+    {
+      "routeId": "SIP-NA-EAST",
+      "carrier": "primary voice edge",
+      "handoffCount": 7,
+      "latencyMsP95": 188,
+      "packetLossPct": 1.8,
+      "rerouteEvents": 14,
+      "slaBreachMinutes": 42,
+      "owner": "Voice platform lead",
+      "nextAction": "Move failover ladder to the secondary carrier before campaign traffic resumes."
+    },
+    {
+      "routeId": "SMS-EU-WEST",
+      "carrier": "messaging aggregator",
+      "handoffCount": 3,
+      "latencyMsP95": 70,
+      "packetLossPct": 0.7,
+      "rerouteEvents": 4,
+      "slaBreachMinutes": 5,
+      "owner": "Messaging reliability lead",
+      "nextAction": "Keep in watch state and require proof of queue drain after peak hour."
+    },
+    {
+      "routeId": "EDGE-APAC-01",
+      "carrier": "edge routing fabric",
+      "handoffCount": 3,
+      "latencyMsP95": 81,
+      "packetLossPct": 0.2,
+      "rerouteEvents": 2,
+      "slaBreachMinutes": 0,
+      "owner": "Edge network lead",
+      "nextAction": "Maintain active route and keep synthetic probes on the same cadence."
+    }
+  ]
+}
