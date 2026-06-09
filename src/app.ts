@@ -27,7 +27,38 @@ export function renderPage(input: TelecomInput): string {
         <p>Demo fixtures are synthetic and credential-free; the pattern is reusable for real diligence packets without exposing customer or regulated data.</p>
       </article>
     </section>
-    <footer>Primary recommendation: ${summary.primaryRecommendation}</footer></main></body></html>`;
+    <section class="proof-pack" aria-label="Product depth and shared pattern">
+      <article class="proof-card">
+        <small>Product purpose</small>
+        <h2>What this product does</h2>
+        <p>A network-reliability map for telecom and messaging systems where route quality, provider failover, throughput, and incident exposure need an executive decision layer.</p>
+      </article>
+      <article class="proof-card">
+        <small>Go-to-market lens</small>
+        <h2>Why buyers would care</h2>
+        <p>For communications buyers, the page explains where routing reliability affects uptime, customer experience, SLA confidence, and revenue continuity.</p>
+      </article>
+      <article class="proof-card">
+        <small>Value architecture</small>
+        <h2>How it turns into action</h2>
+        <p>It ranks route remediation by reliability impact so platform teams can defend provider, failover, or capacity investments.</p>
+      </article>
+      <article class="proof-card">
+        <small>Technical proof</small>
+        <h2>How reviewers can trust it</h2>
+        <p>The proof uses synthetic route lanes, deterministic reliability scoring, app/API output, static Pages output, and sitemap metadata.</p>
+      </article>
+      <article class="proof-card">
+        <small>What these repos have in common</small>
+        <h2>Platform complexity becomes board-ready operating proof.</h2>
+        <p>Each repo names a buyer pain, exposes an evidence model, produces a reusable artifact, and keeps the public page safe with synthetic data instead of credentials or customer exports.</p>
+      </article>
+      <article class="proof-card">
+        <small>Interlinks</small>
+        <h2>Where this fits</h2>
+        <p><a href="https://portfolio.kineticgain.com/">Portfolio</a> · <a href="https://kineticgain.com/">Kinetic Gain</a> · <a href="https://github.com/mizcausevic-dev/telecom-routing-reliability-map">GitHub</a></p>
+      </article>
+    </section><footer>Primary recommendation: ${summary.primaryRecommendation}</footer></main></body></html>`;
 }
 
 export function createApp() {
